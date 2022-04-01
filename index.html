@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Color Scheme Generator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Red+Hat+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <input type="color" id="scheme-input">
+                <select name="schemes" id="scheme-select">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-Dark</option>
+                    <option value="monochrome-light">Monochrome-Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="submit-btn">Get Color Scheme</button>
+            </nav>
+            <main class="colors" id="mainColor">
+            </main>
+            <section id="hex-values"></section>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
